@@ -32,7 +32,7 @@ function SocialProfile({username, tag, location, avatar, stats}) {
   </ul>
 </div>
   );
-}
+};
 
 SocialProfile.propTypes = {
     username: PropTypes.string.isRequired,
@@ -44,6 +44,6 @@ SocialProfile.propTypes = {
         views: PropTypes.number.isRequired,
         likes: PropTypes.number.isRequired
     }).isRequired
-}
+};
 
 export default SocialProfile;
