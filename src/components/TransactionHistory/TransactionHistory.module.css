@@ -1,0 +1,27 @@
+.history {
+    width: 700px; 
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.history th {
+    background-color: #ccc;
+    padding: 10px;
+}
+
+.history td {
+    padding: 12px 16px;
+}
+
+.history thead tr {
+    font-weight: bold;
+    border-top: 1px solid #e8e9eb;
+}
+
+.history tr {
+    border-bottom: 1px solid #e8e9eb;
+}
+
+.history tbody tr:hover {
+    background: #e8f6ff;
+}
