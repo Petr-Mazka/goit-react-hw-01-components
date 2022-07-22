@@ -5,9 +5,7 @@ import css from './Statistics.module.css';
 function Statistics({title, stats}){
     return (
         <section className={css.statistics}>
-            <h2 className={css.title}>
-             Upload stats
-            </h2>
+            {title && <h2 className={css.title}>title</h2>}
             <ul className={css.stats}>
             {stats.map(stat => ( 
                 <li className={css.item} key={stat.id}>
